@@ -1,4 +1,4 @@
->Инструкция по установке моего приложения 
+>Инструкция по установке моего приложения
 
 1. git clone https://github.com/6thSence/Tamplate.git site
 2. cd site
