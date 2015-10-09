@@ -5,12 +5,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('bower', function () {
-  // gulp.src('./app/index.html')
-  //   .pipe(wiredep({
-  //     derictory: "app/bower_components"
-  //   }))
-  //   .pipe(gulp.dest('./app'));
-  gulp.src('./app/contact-me.html')
+  gulp.src('./app/*.html')
     .pipe(wiredep({
       derictory: "app/bower_components"
     }))
