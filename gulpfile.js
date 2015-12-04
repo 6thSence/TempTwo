@@ -105,7 +105,7 @@ gulp.task('watch', function(){
 
 /* --------- default --------- */
 
-gulp.task('default', ['jade', 'compass', 'sync', 'watch','bower']);
+gulp.task('default', ['jade', 'compass', 'sync', 'watch']);
 
 
 /*******************************************
